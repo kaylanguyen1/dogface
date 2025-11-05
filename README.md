@@ -35,7 +35,9 @@
 - Download or clone repository
 
     '''bash
+
     git clone https://github.com/kaylanguyen1/dogface.git
+
     '''
 
 - Open in folder VSCode (or another application, although I've only ran it in VSCode)
@@ -43,20 +45,26 @@
 - Create conda environment
 
     '''bash
+
     conda create --dogs myenv
+
     '''
 
 - Activate conda environment
 
     '''bash
+
     conda activate dogs
+
     '''
 
 - Select the correct kernel by running the first cell to show you your current location vs. what you should be running
 - Once using the correct kernel, install the additional Python libraries in the terminal
 
     '''bash
+
     pip install numpy==1.26.4 opencv-python==4.7.0.72 mediapipe==0.10.21
+
     '''
 
 
