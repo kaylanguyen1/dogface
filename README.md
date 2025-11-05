@@ -33,12 +33,33 @@
 ## **How to Run:**
 
 - Download or clone repository
-- Open in VSCode (or another application, although I've only ran it in VSCode)
+
+    '''bash
+    git clone https://github.com/kaylanguyen1/dogface.git
+    '''
+
+- Open in folder VSCode (or another application, although I've only ran it in VSCode)
 - Open Command Line in application and navigate to root directory of main.ipynb
 - Create conda environment
+
+    '''bash
+    conda create --dogs myenv
+    '''
+
 - Activate conda environment
+
+    '''bash
+    conda activate dogs
+    '''
+
 - Select the correct kernel by running the first cell to show you your current location vs. what you should be running
 - Once using the correct kernel, install the additional Python libraries in the terminal
+
+    '''bash
+    pip install numpy==1.26.4 opencv-python==4.7.0.72 mediapipe==0.10.21
+    '''
+
+
 - Run cell 2 to ensure camera functionality and allow access to the camera if not already done
 - Run cell 3 to fill the dog dictionary
 - Run cell 4 to get the live camera stream comparing each face to a dog's face
